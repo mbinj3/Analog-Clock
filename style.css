@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    background: url(./images/background.png) no-repeat center center fixed;
+    /* background-repeat: no-repeat;
+    background-position: center center;
+    background:fixed */
+    background-size: cover;
+}
+
+.clock{
+
+    height: 320px;
+    width: 320px;
+    background-color: rgba(255,255,255,0.06);
+    position: absolute;
+    
+    margin: auto;
+
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    backdrop-filter: blur(20px);
+
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.1);
+
+    box-shadow: 30px 30px 35px rgba(0,0,0,0.25);
+
+}
+
+img{
+
+    opacity: 0.6;
+}
+
+.hand{
+
+    position: absolute;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(20px);
+    
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+
+    transform-origin: bottom;
+
+}
+
+.hour{
+
+    height: 60px;
+    width: 10px;
+    top: 105px;
+}
+
+.minute{
+
+    height: 80px;
+    width: 7px;
+    top: 85px;
+}
+
+.seconds{
+
+    height: 93px;
+    width: 4px;
+    top: 73px;
+}
